@@ -33,6 +33,7 @@ console.log(mioNome);
 let numero1 = 12;
 let numero2 = 20;
 console.log(numero1 + numero2);
+let somma = numero1 + numero2;
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
@@ -57,8 +58,8 @@ console.log(Sanzari);
 */
 
 let numero3 = 4;
-console.log(variabileX - numero3);
-let result = variabileX - 4;
+console.log(numero3 - variabileX);
+let result = 4 - variabileX;
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
