@@ -58,6 +58,7 @@ console.log(Sanzari);
 
 let numero3 = 4;
 console.log(variabileX - numero3);
+let result = variabileX - 4;
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -69,3 +70,4 @@ let name1 = "john";
 let name2 = "John";
 console.log(name1 !== name2);
 console.log(name1 === name2);
+console.log(name1.toLocaleLowerCase() === name2.toLocaleLowerCase());
