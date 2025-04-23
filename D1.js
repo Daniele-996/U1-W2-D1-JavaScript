@@ -14,11 +14,14 @@ REGOLE
 let datatypeFirst = String;
 let datatypeSecond = Number;
 let datatypeThird = Boolean;
+let datatypeFour = undefined;
+let datatypeFive = null;
 
 console.log(datatypeFirst, "sono datatype dove si utilizzano i caratteri e sono racchiuse da virgolette,apostrofi e backtick");
 console.log(datatypeSecond, "sono datayype con valore numerico,anche decimale e non prevedono l'uso id vergolette,apostrofi e backtick");
 console.log(datatypeThird, "comprendono solo due valori ovvero true e false e servono per far prendere decisioni al codice");
-
+console.log(datatypeFour, "rappresenta la non presenza di valore o l'assenza di una variabile");
+console.log(datatypeFive, "rapprenseta l'intezionale fi valore");
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
